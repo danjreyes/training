@@ -24,15 +24,26 @@ h1{
     background-color: grey;
 }
 
-section{
+.section_format{
     border-radius: 10px;
+    padding-left: 10%;
+    padding-right: 10;
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: grey;
 }
 
+.footer_format{
+    text-align: center;
+}
+
 section h2{
     margin:10px;
+}
+
+img{
+    border-radius: 10px;
+
 }
 
 @media screen and (max-width: 300px) {
