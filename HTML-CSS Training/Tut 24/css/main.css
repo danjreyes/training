@@ -1,0 +1,11 @@
+div p:before{
+  content:"carpe diem";
+  font-size: 200%;
+  color:blue;
+}
+
+div p:after{
+  content:"Daniel";
+  font-size: 200%;
+  color:blue;
+}

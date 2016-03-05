@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title> Webpage  </title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+
+  <body>
+    <div id="center_maker">
+      <header id="page_header">
+        <img src="images/generic-logo.svg" alt="logo image" height="50%" width="50%"/>
+        <h1>Welcome to my website</h1>
+      </header>
+
+      <nav id="top_nav">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+
+      <section id="the_section">
+          <article>
+            <header>
+              <h2>Hey look here</h2>
+              <h3>Please read me</h3>
+            </header>
+            <p>
+              This is my story. The cat sat on the mat. The end!
+            </p>
+            <footer>-written by Daniel Reyes</footer>
+          </article>
+
+          <article>
+            <header>
+              <h1>Story 2</h1>
+              <h3>Please read me</h3>
+            </header>
+            <p>
+              This is my story. The cat sat on the mat. The end!
+            </p>
+            <footer>-written by Daniel Reyes</footer>
+          </article>
+      </section>
+
+      <aside id="side_news">
+        <h2>Recent News</h2>
+        <p>
+          Add me on twitter
+        </p>
+      </aside>
+
+      <footer id="page_footer">
+          &copy; Copyright Daniel Reyes
+      <footer>
+    </div>
+  </body>
+
+</html>

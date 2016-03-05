@@ -1,0 +1,19 @@
+/* Get rid of defaults */
+
+*{/* Selects everything on webpage */
+  margin:0px;
+  padding:0px;
+}
+
+body{
+  font-family: sans-serif;
+  text-align: center;
+}
+
+/*Centering the webpage*/
+ #center_maker{
+   width:960px; /* divides into 3 parts really well */
+   border:2px solid red;
+   margin: 0px auto; /*Centers the webpage */
+   text-align:left;
+ }

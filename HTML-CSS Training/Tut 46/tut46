@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title> Forms  </title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+
+  <body>
+    <form action="2ndpage.php" method="post">
+      what is your name?<input type="text" name="name" value="">
+      <br/>
+      <input type="submit" name="submit" value="Send">
+    </form>
+  </body>
+
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title> Positioning  </title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+
+  <body>
+    <div id="header">
+      <h1>This is the header</h>
+    </div>
+
+    <div id="main_section">
+      <h2>  This is the article </h2>
+      <p> This is a good website. This is a good website. This is a good website. This is a good website. This is a good website. This is a good website. This is a good website. This is a good website. This is a good website. This is a good website. This is a good website. This is a good website. This is a good website. This is a good website. This is a good website. This is a good website. This is a good website. This is a good website. This is a good website. This is a good website. This is a good website. This is a good website. This is a good website. This is a good website. This is a good website. This is a good website. This is a good website. This is a good website. This is a good website. This is a good website. This is a good website. This is a good website. This is a good website. This is a good website. This is a good website. This is a good website. This is a good website. This is a good website. This is a good website. This is a good website. </p>
+      <p> This is a good website. This is a good website. This is a good website. This is a good website. This is a good website. This is a good website. This is a good website. This is a good website. This is a good website. This is a good website. This is a good website. This is a good website. This is a good website. This is a good website. This is a good website. This is a good website. This is a good website. This is a good website. This is a good website. This is a good website. This is a good website. This is a good website. This is a good website. This is a good website. This is a good website. This is a good website. This is a good website. This is a good website. This is a good website. This is a good website. This is a good website. This is a good website. This is a good website. This is a good website. This is a good website. This is a good website. This is a good website. This is a good website. This is a good website. This is a good website. </p>
+
+    </div>
+
+    <div id="footer">
+      <h3>This is the footer</h3>
+    </div>
+  </body>
+
+</html>

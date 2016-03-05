@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title> Tutorial 23 - Child Selectors </title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+
+  <body>
+    <div>
+      <p>You</p>
+      <p>Only</p>
+      <p>Live</p>
+      <p>Once</p>
+    </div>
+  </body>
+
+</html>

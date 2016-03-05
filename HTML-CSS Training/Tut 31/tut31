@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title> Tables  </title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+
+  <body>
+    <table>
+      <caption>Awesome SA music</caption>
+      <tr class="yellow">
+          <th>Artist</th>
+          <th>Album</th>
+          <th>Track</th>
+          <th colspan="2">Social</th>
+      </tr>
+      <tr class="orange">
+          <td>Chiano Sky</td>
+          <td>Hungry</td>
+          <td>Walking Away</td>
+          <td rowspan="2">twitter</td>
+          <td rowspan="2">facebook</td>
+      </tr>
+      <tr class="yellow">
+          <td>Iso</td>
+          <td>Piece by Piece</td>
+          <td>No Fire</td>
+
+
+      </tr>
+    </table>
+  </body>
+
+</html>

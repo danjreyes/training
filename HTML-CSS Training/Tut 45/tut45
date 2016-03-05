@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title> Forms  </title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+
+  <body>
+    <form>
+        <h3></h3>
+        <label for="username">Username</label><input type="text" name="username" id="username">
+        <br/>
+        <label for="password">Password</label><input type="password" name="password" id="password" maxlength=10 size=10>
+
+        <br/>
+        <input type="file" name="name" value="">
+    </form>
+  </body>
+
+</html>

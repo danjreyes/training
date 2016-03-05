@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title> Forms  </title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+
+  <body>
+    <form>
+        <h3>Enter your email message</h3>
+        <textarea name="message_area" rows="8" cols="40">Tell me about yourself</textarea>
+    </form>
+  </body>
+
+</html>

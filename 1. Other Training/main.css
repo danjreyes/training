@@ -1,0 +1,42 @@
+#background{
+    background-color: rgb(0, 0, 0);
+}
+
+.space{
+    border-radius: 10px;
+    background-color: rgba(154, 92, 0, 1);
+    margin: 2% 10% 2% 10%;
+
+
+}
+
+body{
+
+}
+
+h1{
+    border-radius: 10px;
+    /*font-size: 3em;*/
+    /*font-weight: 900;*/
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: grey;
+}
+
+section{
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: grey;
+}
+
+section h2{
+    margin:10px;
+}
+
+@media screen and (max-width: 300px) {
+        h1 {
+    font-size:20px;
+    }
+}

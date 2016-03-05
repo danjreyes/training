@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title> Forms  </title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+
+  <body>
+    <form><!--attributes-->
+      <h3>Select the sports you are interested in</h3>
+      <input type="checkbox" name="sport" value="Football" id="Football"> <label for="Football">Football</label>
+      <input type="checkbox" name="sport" value="Rugby" id="Rugby"> <label for="Rugby">Rugby</label>
+      <input type="checkbox" name="sport" value="Volleyball" id="Volleyball"> <label for="Volleyball">Volleyball</label>
+      <input type="checkbox" name="sport" value="Soccer" id="Soccer"> <label for="Soccer">Soccer</label>
+
+      <h3>Would you like to be on our mailing list?</h3>
+      <input type="radio" name="list" value="Yes" id="Yes"> <label for="Yes">Yes</label>
+      <input type="radio" name="list" value="No" id="No"> <label for="No">No</label>
+    </form>
+  </body>
+
+</html>

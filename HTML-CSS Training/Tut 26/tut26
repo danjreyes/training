@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title> styling lists -  </title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+
+  <body>
+    <ul>
+      <li>Games</li>
+      <li>Web Design</li>
+      <li>Graphic Design</li>
+    </ul>
+  </body>
+
+</html>

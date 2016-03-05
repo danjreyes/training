@@ -1,0 +1,5 @@
+ul{
+/*  list-style-image:url('../images/starsolid.gif');*/
+  list-style-type: none;
+  padding:0px;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title> Tables  </title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+
+  <body>
+    <table border="1">
+      <caption>Awesome SA music</caption>
+      <tr>
+          <th>Artist</th>
+          <th>Album</th>
+          <th>Track</th>
+      </tr>
+      <tr>
+          <td>Chiano Sky</td>
+          <td>Hungry</td>
+          <td>Walking Away</td>
+      </tr>
+      <tr>
+          <td>Iso</td>
+          <td>Piece by Piece</td>
+          <td>No Fire</td>
+      </tr>
+    </table>
+  </body>
+
+</html>

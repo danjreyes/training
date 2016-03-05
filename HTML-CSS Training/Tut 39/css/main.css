@@ -1,0 +1,98 @@
+/* Get rid of defaults */
+
+*{/* Selects everything on webpage */
+  margin:0px;
+  padding:0px;
+}
+
+body{
+  font-family: sans-serif;
+  text-align: center;
+}
+
+/*Centering the webpage*/
+ #center_maker{
+   width:960px; /* divides into 3 parts really well */
+   /*border:2px solid;*/
+   margin: 0px auto; /*Centers the webpage */
+   text-align:left;
+ }
+
+/* Header css starts here */
+
+#page_header{
+  border:2px solid blue;
+  margin: 10px 0px;
+}
+
+.logo{
+  display: inline;
+  vertical-align: middle;
+}
+
+.head_text{
+  display: inline;
+tut38
+}
+
+/*
+End of Header Styling
+Start Navigation Styling
+*/
+
+#top_nav{
+  border:2px solid red;
+  margin:5px 0px;
+  padding: 10px;
+
+}
+
+#top_nav ul{
+  list-style-type: none;
+
+}
+
+#top_nav ul li{
+  display: inline;
+}
+
+#top_nav ul li a{
+  padding:10px;
+}
+
+/*
+End Navigation
+Start Section
+*/
+
+#the_section{/*total width 640px*/
+  float:left;
+  margin:0px 10px 10px 0px; /*Top right bottom left */
+  padding:10px;
+  border:2px solid green;
+  width:606px;
+}
+
+/*
+End section
+Start Side News
+*/
+
+#side_news{/*320px total*/
+  float:left;
+  padding:10px;
+  border:2px solid orange;
+  width: 296px;
+}
+
+/*
+End side news
+Start footer
+*/
+
+#page_footer{
+  clear:both;
+  border:2px solid black;
+  padding:10px;
+  text-align:center;
+}

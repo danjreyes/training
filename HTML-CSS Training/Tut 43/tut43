@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title> Forms  </title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+
+  <body>
+    <form>
+        <h3>Select your favorite Rugby Team</h3>
+        <select class="" name="teams" multiple size="2">
+          <option value="Bulls">Bulls</option>
+          <option value="Stormers">Stormers</option>
+          <option value="Sharks">Sharks</option>
+          <option value="Cheetahs" selected>Cheetahs</option>
+        </select>
+    </form>
+  </body>
+
+</html>
