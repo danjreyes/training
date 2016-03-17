@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Objects, Properites and Methods</title>
+        <script type="text/javascript">
+
+            var image_tracker = "s";
+
+
+            function change() {
+                var image = document.getElementById('logo');
+                if (image_tracker=="s") {
+                    image.src = "images/ubuntu-logo32.png";
+                    image_tracker="u";
+                }
+                else {
+                    image.src = "images/Starbucks_Corporation_Logo_2011.svg.png";
+                    image_tracker="s";
+                }
+                //alert(image_tracker);
+            }
+        </script>
+    </head>
+
+    <body>
+        <img src="images/Starbucks_Corporation_Logo_2011.svg.png" height="200px" alt="logo" id="logo" onclick="change();">
+    </body>
+</html>

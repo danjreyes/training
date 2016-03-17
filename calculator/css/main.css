@@ -1,0 +1,24 @@
+
+
+th{
+  border-left:1px solid white;
+  background-color: black;
+  color:white;
+  padding:2px;
+}
+
+td{
+  border-left:1px solid black;
+  padding:2px;
+}
+
+table{
+  border:1px solid black;
+  border-collapse: collapse;
+  padding:2px;
+  font-size:xx-large;
+}
+
+caption{
+  text-align: left;
+}
