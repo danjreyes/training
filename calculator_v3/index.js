@@ -16,13 +16,15 @@ function btnPress(number)
     console.log((array1.toString()));
 }
 
-function erase(){
+function erase()
+{
     array1.length = 0;
     value="";
     document.getElementById('input').value = "";
 }
 
-function calcText(){
+function calcText()
+{
     var answer = 0;
     input = document.getElementById('input');
     console.log(input);

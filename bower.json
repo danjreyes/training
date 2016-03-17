@@ -1,0 +1,24 @@
+{
+  "name": "training",
+  "homepage": "https://github.com/danjreyes/training",
+  "authors": [
+    "Daniel Reyes <djreyes@bh.com>"
+  ],
+  "description": "",
+  "main": "index.js",
+  "moduleType": [
+    "globals"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.2"
+  }
+}
