@@ -1,35 +1,23 @@
-array1 = []
+numConcatArray = []
 value=""
 
-btnPress = number ->
-{
-    array1.push(number);
+btnPress = (number) ->
+    numConcatArray.push(number)
+    value=""
+    for x in numConcatArray
+        value+=x
+    document.getElementById('input').value = value
 
+erase = ()->
+    numConcatArray.length = 0;
     value="";
-    for (var i = 0; i < array1.length; i++)
-    {
-        value+=array1[i];
-    }
+    document.getElementById('input').value = "";
 
-    document.getElementById('input').value = value;
-
-    console.log((array1.toString()));
-}
-#
-# function erase()
-# {
-#     array1.length = 0;
-#     value="";
-#     document.getElementById('input').value = "";
-# }
-#
-# function calcText()
-# {
-#     var answer = 0;
-#     input = document.getElementById('input');
-#     console.log(input);
-#     answer= eval(input.value);
-#     input.value = answer;
-#     array1.length = 0;
-#     array1.push(answer);
-# }
+calcText = () ->
+    answer = 0;
+    input = document.getElementById('input');
+    console.log(input);
+    answer= eval(input.value);
+    input.value = answer;
+    numConcatArray.length = 0;
+    numConcatArray.push(answer);
