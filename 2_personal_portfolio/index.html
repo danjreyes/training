@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Daniel's Portfolio</title>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <style>
+        .container-fluid {
+            padding: 0px;
+            border: 0;
+        }
+        nav {
+            overflow: hidden;
+            background-color: #333;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            float:right;
+        }
+        nav li {
+            float:left;
+        }
+        nav li a, a:link, a:visited, a:active, a:hover    {
+            display:block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        nav li a:hover:not(.active) {
+            background-color: #111;
+        }
+        nav .active {
+            background-color: #4CAF50;
+        }
+        #danielPic {
+            float:right;
+            border-radius: 50%;
+        }
+        #about,
+        #portfolio,
+        #contact {
+            padding: 0px 15px 0px 15px;
+            overflow: hidden;
+        }
+        h2 {
+            background-color: purple;
+            color: white;
+            padding: 5px;
+        }
+        #portfolio {
+            text-align: center;
+        }
+        footer {
+            background-color: #333;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <nav>
+            <ul style="float:left">
+                <li><a>Daniel Reyes</a></li>
+            </ul>
+            <ul>
+
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div id='about'>
+            <h2>About</h2>
+            <img src="http://placehold.it/250x250" alt="Picture of Daniel" id="danielPic"/>
+            <h4>My name is Daniel Reyes and I am currently going through the freecodecamp.com curriculum. I will be using this site in order to display the progress I am making with HTML, CSS and Javascript.</h4>
+        </div>
+
+        <div id='portfolio'>
+            <h2>Portfolio</h2>
+            <div class="row">
+                <div class="col-sm-4">
+                    <h4>Project 1</h4>
+                    <img src="http://placehold.it/250x150" alt="Project 1" />
+                </div>
+                <div class="col-sm-4">
+                    <h4>Project 2</h4>
+                    <img src="http://placehold.it/250x150" alt="Project 2" />
+                </div>
+                <div class="col-sm-4">
+                    <h4>Project 3</h4>
+                    <img src="http://placehold.it/250x150" alt="Project 3" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <h4>Project 4</h4>
+                    <img src="http://placehold.it/250x150" alt="Project 4" />
+                </div>
+                <div class="col-sm-4">
+                    <h4>Project 5</h4>
+                    <img src="http://placehold.it/250x150" alt="Project 5" />
+                </div>
+                <div class="col-sm-4">
+                    <h4>Project 6</h4>
+                    <img src="http://placehold.it/250x150" alt="Project 6" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <h4>Project 7</h4>
+                    <img src="http://placehold.it/250x150" alt="Project 7" />
+                </div>
+                <div class="col-sm-4">
+                    <h4>Project 8</h4>
+                    <img src="http://placehold.it/250x150" alt="Project 8" />
+                </div>
+                <div class="col-sm-4">
+                    <h4>Project 9</h4>
+                    <img src="http://placehold.it/250x150" alt="Project 9" />
+                </div>
+            </div>
+        </div>
+
+        <div id='contact'>
+            <h2>Contact</h2>
+            <div class="row">
+                <div class="col-sm-6">
+                    <h4>test</h4>
+                </div>
+                <div class="col-sm-6">
+                    <h4>Please leave me a message. Right now this section doesn't work though so...</h4>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <p>Daniel Reyes &copy 2016. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+
+</html>
